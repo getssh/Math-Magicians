@@ -2,37 +2,38 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 \[webpack-demo\] ](#-webpack-demo-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [webpack-demo] <a name="about-project"></a>
 
-**[webpack-demo]** This is a project to practice web-pack use and implementations.
+**[webpack-demo]** This is a project that will create simple calculator using react js
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-For this project, HTML, CSS and JavaScript has been used
+For this project, JSX, CSS and ReactJS has been used
 
 <details>
   <summary>Client</summary>
@@ -59,8 +60,8 @@ For this project, HTML, CSS and JavaScript has been used
 
 ### Key Features <a name="key-features"></a>
 
-- **[Using webpack for effective managment]**
-- **[Using different dipendencies and modules]**
+- **[Make basic math arthemethics]**
+- **[Resposiveness ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +69,7 @@ For this project, HTML, CSS and JavaScript has been used
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- There is no live demo for now
+- Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,9 +89,9 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/getssh/webpack-demo
+git clone https://github.com/getssh/math-magicians
 
-cd webpack-demo
+cd math-magicians
 
 ### Install
 
@@ -102,22 +103,29 @@ npm install
 
 To run the project, execute the following command:
 
-Use a liveserver of Run it on a web browser
+npm start
 
 ### Run tests
 
 To run tests, run the following command:
 
-npx hint .
 npx stylelint "**/*.{css,scss}"
-npx eslint .
+npx eslint "**/*.{js,jsx}"
+
+or
+
+npm test
 
 ### Deployment
 
-You can deploy this project using:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Set up a deployment in package.json and run deploy or
-use github pages
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +146,7 @@ use github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Animation and style to the book list and tab]**
+- [ ] **[Animation and style to the calculator]**
 - [ ] **[smooth transition]**
 - [ ] **[Add functionality to edit]**
 
@@ -150,7 +158,7 @@ use github pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/getssh/webpack-demo/issues).
+Feel free to check the [issues page](https://github.com/getssh/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
