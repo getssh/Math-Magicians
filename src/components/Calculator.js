@@ -1,13 +1,19 @@
 import './Calculator.css';
+import PropTypes from 'prop-types';
 
-const CalcInside = (porps) => {
-  const { calcText, colorClass } = porps;
+const CalcInside = (props) => {
+  const { calcText, colorClass } = props;
 
   return (
     <div className={`wrap ${colorClass}`}>
       <p>{calcText}</p>
     </div>
   );
+};
+
+CalcInside.propTypes = {
+  calcText: PropTypes.string.isRequired,
+  colorClass: PropTypes.string.isRequired,
 };
 
 const Calculator = () => (
