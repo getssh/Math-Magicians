@@ -33,6 +33,7 @@ const Calculator = () => (
       <CalcInside calcText="3" colorClass="gray" />
       <CalcInside calcText="+" colorClass="orange" />
       <CalcInside calcText="0" colorClass="gray wide" />
+      <CalcInside calcText="." colorClass="gray" />
       <CalcInside calcText="=" colorClass="orange" />
     </div>
   </div>
