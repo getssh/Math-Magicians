@@ -2,12 +2,11 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
-- [📖 \[webpack-demo\] ](#-webpack-demo-)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Math magicians\] ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -25,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [webpack-demo] <a name="about-project"></a>
+# 📖 [Math magicians] <a name="about-project"></a>
 
-**[webpack-demo]** This is a project that will create simple calculator using react js
+**[Math magicians]** This is a project that will create simple calculator using react js
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,11 +37,13 @@ For this project, JSX, CSS and ReactJS has been used
 <details>
   <summary>Client</summary>
   <ul>
+    <li>HTML</li>
+    <li>CSS</li>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
@@ -54,7 +55,7 @@ For this project, JSX, CSS and ReactJS has been used
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
@@ -67,9 +68,9 @@ For this project, JSX, CSS and ReactJS has been used
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming Soon
+- Coming Soon -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
