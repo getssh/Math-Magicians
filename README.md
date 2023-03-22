@@ -43,7 +43,7 @@ For this project, JSX, CSS and ReactJS has been used
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
@@ -55,7 +55,7 @@ For this project, JSX, CSS and ReactJS has been used
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
