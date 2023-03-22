@@ -10,8 +10,6 @@ const CalcInside = (porps) => {
   );
 };
 
-// f5913e e0e0e0
-
 const Calculator = () => (
   <div className="calculator">
     <input type="text" placeholder="0" />
