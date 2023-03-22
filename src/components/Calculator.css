@@ -1,6 +1,6 @@
 .calculator {
   width: 30%;
-  height: 100vb;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,11 +10,12 @@
 .calc-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
 }
 
 .calculator input {
   background-color: #858694;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
   border: none;
 }
 
@@ -27,7 +28,6 @@
 
 .wrap {
   text-align: center;
-  border: 1px solid #858694;
 }
 
 .gray {
@@ -39,5 +39,5 @@
 }
 
 .wide {
-  grid-column-start: span 3;
+  grid-column-start: span 2;
 }
