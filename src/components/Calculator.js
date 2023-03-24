@@ -1,5 +1,13 @@
+import {useState} from 'react'
 import './Calculator.css';
 import PropTypes from 'prop-types';
+import calculate from './logic/calculate';
+
+const [calculate, setCalculate] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
 const CalcInside = (props) => {
   const { calcText, colorClass } = props;
