@@ -1,5 +1,5 @@
 import Calculator from './components/Calculator';
-import RandQuote from './quote/quote';
+import RandQuote from './components/quote/quote';
 
 function App() {
   return (
