@@ -13,27 +13,20 @@
   grid-gap: 1px;
 }
 
-.calculator input {
-  background-color: #858694;
-  padding: 1.2rem 0;
-  color: #fff;
-  text-align: right;
-  font-size: 1.2rem;
+.wrap {
+  text-align: center;
+  height: 3.5rem;
   border: none;
 }
 
-::placeholder {
+.shwo-result {
+  background-color: #858694;
+  height: 3.5rem;
   color: #fff;
-  padding-right: 0.4rem;
-  text-align: right;
-  font-size: 1.1rem;
+  padding-left: 1rem;
 }
 
-.wrap {
-  text-align: center;
-}
-
-.gray {
+button {
   background-color: #e0e0e0;
 }
 
