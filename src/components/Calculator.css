@@ -23,7 +23,8 @@
   background-color: #858694;
   height: 3.5rem;
   color: #fff;
-} 
+  padding-left: 1rem;
+}
 
 button {
   background-color: #e0e0e0;
