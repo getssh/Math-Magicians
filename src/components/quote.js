@@ -9,7 +9,7 @@ const RandQuote = () => {
     fetch('https://api.api-ninjas.com/v1/quotes')
       .then((response) => response.json())
       .then((data) => {
-        setQuote(data.quote);
+        setQuote(`${JSON.stringify(data.quote)} is it working?`);
         setIsLoading(false);
       });
   }, []);
@@ -19,7 +19,12 @@ const RandQuote = () => {
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return (
+      <div>
+        Error:
+        {error}
+      </div>
+    );
   }
 
   return <div>{quote}</div>;
