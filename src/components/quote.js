@@ -6,10 +6,14 @@ const RandQuote = () => {
   const [error] = useState('');
 
   useEffect(() => {
-    fetch('https://api.api-ninjas.com/v1/quotes')
+    fetch('https://api.api-ninjas.com/v1/quotes', {
+      headers: {
+        'X-Api-Key': 'Jf7syCWXxeX0DMtv1WoSPg==n4AwYFivkgYCUFOH',
+      },
+    })
       .then((response) => response.json())
       .then((data) => {
-        setQuote(`${JSON.stringify(data.quote)} is it working?`);
+        setQuote(`${data[0].quote}`);
         setIsLoading(false);
       });
   }, []);
