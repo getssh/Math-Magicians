@@ -10,22 +10,14 @@ const ShowResult = (props) => {
     <div className="shwo-result">
       <p>
         {output.total}
+        {' '}
         {output.operation}
+        {' '}
         {output.next}
       </p>
     </div>
   );
 };
-
-// const CalculatorOutput = ({ result }) => (
-//   <section className="CalcOutput">
-//     <span>
-//       {result.total}
-//       {result.operation}
-//       {result.next}
-//     </span>
-//   </section>
-// );
 
 ShowResult.propTypes = {
   output: PropTypes.shape({
@@ -54,21 +46,22 @@ const Calculator = () => {
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>AC</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>+/-</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>%</button>
-        <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>÷</button>
+        <button type="button" className="wrap orange" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>÷</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>7</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>8</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>9</button>
-        <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>x</button>
+        <button type="button" className="wrap orange" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>x</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>4</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>5</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>6</button>
-        <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>-</button>
+        <button type="button" className="wrap orange" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>-</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>1</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>2</button>
         <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>3</button>
-        <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>+</button>
-        <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>0</button>
-        <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>=</button>
+        <button type="button" className="wrap orange" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>+</button>
+        <button type="button" className="wrap wide" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>0</button>
+        <button type="button" className="wrap" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>.</button>
+        <button type="button" className="wrap orange" onClick={(e) => handleChange(e, calculateResult, setCalculateResult)}>=</button>
       </div>
     </div>
   );
