@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './quote.css';
 
 const RandQuote = () => {
   const [quote, setQuote] = useState('');
@@ -19,19 +20,19 @@ const RandQuote = () => {
   }, []);
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <div className="quote-wrap">Loading...</div>;
   }
 
   if (error) {
     return (
-      <div>
+      <div className="quote-wrap">
         Error:
         {error}
       </div>
     );
   }
 
-  return <div>{quote}</div>;
+  return <div className="quote-wrap">{quote}</div>;
 };
 
 export default RandQuote;

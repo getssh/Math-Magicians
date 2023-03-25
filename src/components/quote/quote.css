@@ -1,0 +1,9 @@
+.quote-wrap {
+  width: 25%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+}
