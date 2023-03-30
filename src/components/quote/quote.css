@@ -1,9 +1,16 @@
 .quote-wrap {
-  width: 25%;
+  width: 40%;
   height: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin: auto;
+  margin-top: 8rem;
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+.author {
+  font-style: italic;
 }

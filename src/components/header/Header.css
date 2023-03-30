@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.header h2 {
+  color: #eee;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 2rem;
+}
+
+nav ul li a {
+  color: #f60;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
