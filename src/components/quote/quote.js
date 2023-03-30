@@ -14,7 +14,7 @@ const RandQuote = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        setQuote(`${data[0].quote}`);
+        setQuote(data[0]);
         setIsLoading(false);
       });
   }, []);
@@ -32,7 +32,17 @@ const RandQuote = () => {
     );
   }
 
-  return <div className="quote-wrap">{quote}</div>;
+  return (
+    <div className="quote-wrap">
+      <p>
+        {quote.quote}
+      </p>
+      <br />
+      <p className="author">
+        {quote.author}
+      </p>
+    </div>
+  );
 };
 
 export default RandQuote;
