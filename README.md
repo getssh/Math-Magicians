@@ -7,6 +7,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [� Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -68,9 +69,9 @@ For this project, JSX, CSS and ReactJS has been used
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming Soon -->
+- [Live Demo Link](https://meth-magician-get.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
